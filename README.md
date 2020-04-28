@@ -64,15 +64,12 @@ src                 기타 필요한 연결 프로그램 소스코드 및 Django
 trouble_shooting    프로젝트를 진행하며 발생한 문제사항들 정리
 ```
 
-# Documentation
-- 이 문서는 [Document](https://github.com/)와 동일한 내용입니다.
 
 ## 사전 지식
 - 이 프로젝트를 이해 및 수정하기 위해서는 다음과 같은 이해가 있으면 도움이 될 것입니다.
-  - 리눅스에 대한 기초 지식
+  - 리눅스에 대한 지식
   - 파이썬 문법
-  - 데이터베이스
-  - DataBase(https://github.com/)에 대한 기본 사용 방법
+  - 데이터베이스 DataBase(https://github.com/)에 대한 기본 사용 방법
    
 
 ## 핵심 문서
