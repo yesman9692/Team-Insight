@@ -32,9 +32,7 @@
     - MariaDB 10.3.22-Raspbian 10
     
   - Android Studio
- 
   - Raspberry Pi 4B / 3B
-  
   - Arduino UNO R3 
 
 ## 기능  
@@ -42,15 +40,12 @@
     
 
 ## 보고서 
--
-
 - [신청서](https://github.com/)
 - [중간보고서](https://github.com/)
 - [결과보고서](https://github.com/)
     
 ## 회의록 
 - 
-
 - [2019.03.13(수)](https://github.com/)
 
 
@@ -59,7 +54,6 @@
 Document            프로젝트 문서 관련 디렉토리
 Database            데이터베이스 관련 디렉토리
 Minutes             회의록
-
 etc                 기타 필요한 연결 프로그램 소스코드 및 자료
 OSS_analysis        오픈소스 활용 가능성 검토 관련 디렉토리
 Trouble 	    프로젝트를 진행하며 발생한 문제사항들 정리
