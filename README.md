@@ -30,7 +30,6 @@
     - PHP Version 7.3.14-1~deb10u1
       - phpMyAdmin 4.6.6deb5
     - MariaDB 10.3.22-Raspbian 10
-    
   - Android Studio
   - Raspberry Pi 4B / 3B
   - Arduino UNO R3 
