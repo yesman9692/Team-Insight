@@ -57,7 +57,7 @@ img             기타 이미지 자료
 
 ## 전체적인 구성도
 
-<img src="/img/전체적인_구성도.png" width="500px"  title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="/img/전체적인_구성도.png" width="650px"  title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 <img src="/img/Git_branch.png" width="250px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
