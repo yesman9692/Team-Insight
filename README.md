@@ -5,16 +5,16 @@
 
 
 ## 팀
-- 팀명 : 천리안
+- 팀명 : **천리안**
 - 팀원 및 역할
     - 진형석 : 프로젝트 진행 총괄 & 보고서 작성 & 서버 구축 및 관리 &  git 관리 & 기타 프로그램 작성 & 오픈소스 활용 검토
-    - 양원석 : 프로젝트 전체 알고리즘 작성 & 서류작성 및 물품구매 관리 & 라즈베리 파이 및 카메라 세팅 & 파이썬을 이용한 영상처리
+    - 양원석 : 프로젝트 전체 알고리즘 작성 & 서류작성 및 물품구매 관리 & 라즈베리 파이 및 카메라 세팅 & 영상처리 코딩(파이썬)
     - 박주승 : 안드로이드 레이아웃 초안 & 아두이노 설계 & 적외선 센터 카운터 코딩
     - 조성욱 : 소스코드 보완 & QA & 테스팅(시나리오, 성능측정)
 
 
 ## 주제 및 기대효과
-  - 프로젝트명 : 붐비나 안붐비나 - 헛걸음 방지 앱
+  - 프로젝트명 : **붐비나 안붐비나 - 헛걸음 방지 앱**
   
   - 프로젝트 내용 :
   적외선/영상처리 센서로 인원수를 카운팅하고 실시간으로 앱으로 공유해서 바쁜 곳을 피해 헛걸음을 막는 앱
@@ -43,12 +43,30 @@
   - 영상처리 센서로 인원수 파악
   - 서버 데이터 연동 분석 
   - 안드로이드 앱 
-    
+
+
+## 디렉토리 구조
+```
+Document        프로젝트 문서 관련 디렉토리
+DB              데이터베이스 관련 디렉토리
+Report          보고서 관리 디렉토리
+Minutes         회의록 관리 디렉토리
+etc             기타 필요한 연결 프로그램 소스코드 및 자료
+img             기타 이미지 자료
+```
+
+## 전체적인 구성도
+   1. 구성도
+<img src="/path/to/img.jpg" width="700px"  title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+
+   2. Git Brunch
+<img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+
 
 ## 보고서 
 - [프로젝트신청서](https://github.com/yesman9692/Team-Insight/blob/master/Report/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%8B%A0%EC%B2%AD%EC%84%9C(%EC%B2%9C%EB%A6%AC%EC%95%88).hwp)
 - [중간보고서](https://github.com/yesman9692/Team-Insight/blob/master/Report/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%A4%91%EA%B0%84%EB%B3%B4%EA%B3%A0%EC%84%9C(%EC%B2%9C%EB%A6%AC%EC%95%88).hwp)
-- [결과보고서](https://github.com/yesman9692/Team-Insight/blob/master/Report/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C(%EC%B2%9C%EB%A6%AC%EC%95%88)_%EC%9E%91%EC%84%B1%EC%A4%91.hwp)
+- [결과보고서(작성중)](https://github.com/yesman9692/Team-Insight/blob/master/Report/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C(%EC%B2%9C%EB%A6%AC%EC%95%88)_%EC%9E%91%EC%84%B1%EC%A4%91.hwp)
     
     
 ### 회의록 
@@ -73,16 +91,6 @@
 
 
 
-## 디렉토리 구조
-```
-Document        프로젝트 문서 관련 디렉토리
-DB	            데이터베이스 관련 디렉토리
-Report		    보고서 관리 디렉토리
-Minutes         회의록 관리 디렉토리
-etc             기타 필요한 연결 프로그램 소스코드 및 자료
-```
-
-
 ### 사전 지식
 - 이 프로젝트를 이해 및 수정하기 위해서는 다음과 같은 이해가 있으면 도움이 될 것입니다.
   - 리눅스에 대한 지식과 이해
@@ -94,12 +102,13 @@ etc             기타 필요한 연결 프로그램 소스코드 및 자료
   - 적외선, 영상처리 등 각종 센서 지식
 
 
-### 핵심 문서
+### 핵심 문서(작성중)
 문서명 | 설명
 ---- | ----
-
-[데이터베이스(SQL)](https://github.com/) | SQL을 정의해 놓은 문서
-[테스트 상황](https://github.com/) | 이 프로젝트에서 테스트 하기 위한 상황을 가정하고 설명한 파일
+[적외선 센서 코딩](https://github.com/yesman9692/Team-Insight) | 아두이노(C언어)에 적외선 카운트 코딩
+[영상처리 센서 코딩](https://github.com/yesman9692/Team-Insight) | 라즈베리파이(파이썬)에 영상처리 카운트 코딩
+[데이터베이스(SQL)](https://github.com/yesman9692/Team-Insight) | SQL을 정의해 놓은 문서
+[테스트 상황](https://github.com/yesman9692/Team-Insight) | 이 프로젝트에서 테스트 하기 위한 상황을 가정하고 설명한 파일
 
 
 
@@ -108,6 +117,7 @@ etc             기타 필요한 연결 프로그램 소스코드 및 자료
 ---- | ----
 [MariaDB 기본 명령어](https://github.com/yesman9692/Team-Insight/blob/master/etc/DB_command.md) | 마리아 DB의 기본 명령어 및 설치법
 [오픈소스 활용 가능성 검토](https://github.com/yesman9692/Team-Insight/blob/master/etc/OSS__analysis.md/) | 이 프로젝트를 위한 여러 오픈소스 비교 및 활용 가능성 검토
+
 
 
 
