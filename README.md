@@ -7,7 +7,7 @@
 ## 팀
 - 팀명 : 천리안
 - 팀원 및 역할
-    - 진형석 : 프로젝트 진행 총괄 & 서류 작성 & 서버 구축 및 관리 &  git 관리 & 기타 프로그램 작성 & 오픈소스 활용 가능성 검토
+    - 진형석 : 프로젝트 진행 총괄 & 보고서 작성 & 서버 구축 및 관리 &  git 관리 & 기타 프로그램 작성 & 오픈소스 활용 검토
     - 양원석 : 프로젝트 전체 알고리즘 작성 & 서류작성 및 물품구매 관리 & 라즈베리 파이 및 카메라 세팅 & 파이썬을 이용한 영상처리
     - 박주승 : 안드로이드 레이아웃 초안 & 아두이노 설계 & 적외선 센터 카운터 코딩
     - 조성욱 : 소스코드 보완 & QA & 테스팅(시나리오, 성능측정)
@@ -46,31 +46,53 @@
     
 
 ## 보고서 
-- [신청서](https://github.com/)
-- [중간보고서](https://github.com/)
-- [결과보고서](https://github.com/)
+- [프로젝트신청서](https://github.com/yesman9692/Team-Insight/blob/master/Report/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%8B%A0%EC%B2%AD%EC%84%9C(%EC%B2%9C%EB%A6%AC%EC%95%88).hwp)
+- [중간보고서](https://github.com/yesman9692/Team-Insight/blob/master/Report/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%A4%91%EA%B0%84%EB%B3%B4%EA%B3%A0%EC%84%9C(%EC%B2%9C%EB%A6%AC%EC%95%88).hwp)
+- [결과보고서](https://github.com/yesman9692/Team-Insight/blob/master/Report/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C(%EC%B2%9C%EB%A6%AC%EC%95%88)_%EC%9E%91%EC%84%B1%EC%A4%91.hwp)
     
     
-## 회의록 
-- [2019.03.13(수)](https://github.com/)
+### 회의록 
+- 장소는 초반에는 화상통화, 이후부터는 스터디룸에 모여서 진행
+    - [캡스톤디자인_천리안_회의록(200000)_양식](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200000)_%EC%96%91%EC%8B%9D.hwp)
+    - [캡스톤디자인_천리안_회의록(200327)_처음](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200327)_%EC%B2%98%EC%9D%8C.hwp)
+    - [캡스톤디자인_천리안_회의록(200328)_팀장](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200328)_%ED%8C%80%EC%9E%A5.hwp)
+    - [캡스톤디자인_천리안_회의록(200330)_주제선정1](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200330)_%EC%A3%BC%EC%A0%9C%EC%84%A0%EC%A0%951.hwp)
+    - [캡스톤디자인_천리안_회의록(200331)_주제선정2](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200331)_%EC%A3%BC%EC%A0%9C%EC%84%A0%EC%A0%952.hwp)
+    - [캡스톤디자인_천리안_회의록(200401)_주제구체화](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200401)_%EC%A3%BC%EC%A0%9C%EA%B5%AC%EC%B2%B4%ED%99%94.hwp)
+    - [캡스톤디자인_천리안_회의록(200402)_지도교수면담](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200402)_%EC%A7%80%EB%8F%84%EA%B5%90%EC%88%98%EB%A9%B4%EB%8B%B4.hwp)
+    - [캡스톤디자인_천리안_회의록(200403)_신청서_작성_및_보완](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200403)_%EC%8B%A0%EC%B2%AD%EC%84%9C_%EC%9E%91%EC%84%B1_%EB%B0%8F_%EB%B3%B4%EC%99%84.hwp)
+    - [캡스톤디자인_천리안_회의록(200408)_신청서_완성_및_제출](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200408)_%EC%8B%A0%EC%B2%AD%EC%84%9C_%EC%99%84%EC%84%B1_%EB%B0%8F_%EC%A0%9C%EC%B6%9C.hwp)
+    - [캡스톤디자인_천리안_회의록(200409)_깃허브_연동](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200409)_%EA%B9%83%ED%97%88%EB%B8%8C_%EC%97%B0%EB%8F%99.hwp)
+    - [캡스톤디자인_천리안_회의록(200413)_물품구입_적외선센서(아두이노)](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200413)_%EB%AC%BC%ED%92%88%EA%B5%AC%EC%9E%85_%EC%A0%81%EC%99%B8%EC%84%A0%EC%84%BC%EC%84%9C(%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8).hwp)
+    - [캡스톤디자인_천리안_회의록(200414)_물품구입_영상처리센서(라즈파이)](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200414)_%EB%AC%BC%ED%92%88%EA%B5%AC%EC%9E%85_%EC%98%81%EC%83%81%EC%B2%98%EB%A6%AC%EC%84%BC%EC%84%9C(%EB%9D%BC%EC%A6%88%ED%8C%8C%EC%9D%B4).hwp)
+    - [캡스톤디자인_천리안_회의록(200418)_물품구입_기타물품_및_예산정리](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200418)_%EB%AC%BC%ED%92%88%EA%B5%AC%EC%9E%85_%EA%B8%B0%ED%83%80%EB%AC%BC%ED%92%88_%EB%B0%8F_%EC%98%88%EC%82%B0%EC%A0%95%EB%A6%AC.hwp)
+    - [캡스톤디자인_천리안_회의록(200421)_앱_UI_개발_및_토의](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200421)_%EC%95%B1_UI_%EA%B0%9C%EB%B0%9C_%EB%B0%8F_%ED%86%A0%EC%9D%98.hwp)
+    - [캡스톤디자인_천리안_회의록(200423)_서버구축_APM(Apache, PHP, MariaDB)](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200423)_%EC%84%9C%EB%B2%84%EA%B5%AC%EC%B6%95_APM(Apache%2C%20PHP%2C%20MariaDB).hwp)
+    - [캡스톤디자인_천리안_회의록(200424)_영상처리센서_설계_및_코딩](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200424)_%EC%98%81%EC%83%81%EC%B2%98%EB%A6%AC%EC%84%BC%EC%84%9C_%EC%84%A4%EA%B3%84_%EB%B0%8F_%EC%BD%94%EB%94%A9.hwp)
+    - [캡스톤디자인_천리안_회의록(200428)_적외선센서_설계_및_코딩](https://github.com/yesman9692/Team-Insight/blob/master/Minutes/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8_%EC%B2%9C%EB%A6%AC%EC%95%88_%ED%9A%8C%EC%9D%98%EB%A1%9D(200428)_%EC%A0%81%EC%99%B8%EC%84%A0%EC%84%BC%EC%84%9C_%EC%84%A4%EA%B3%84_%EB%B0%8F_%EC%BD%94%EB%94%A9.hwp)
+
 
 
 ## 디렉토리 구조
 ```
-Document            프로젝트 문서 관련 디렉토리
+Document        프로젝트 문서 관련 디렉토리
 DB	            데이터베이스 관련 디렉토리
 Report		    보고서 관리 디렉토리
-Minutes             회의록 관리 디렉토리
-etc                 기타 필요한 연결 프로그램 소스코드 및 자료
+Minutes         회의록 관리 디렉토리
+etc             기타 필요한 연결 프로그램 소스코드 및 자료
 ```
 
 
 ### 사전 지식
 - 이 프로젝트를 이해 및 수정하기 위해서는 다음과 같은 이해가 있으면 도움이 될 것입니다.
-  - 리눅스에 대한 지식
-  - 파이썬 문법
-  - 데이터베이스 DataBase(https://github.com/)에 대한 기본 사용 방법
-   
+  - 리눅스에 대한 지식과 이해
+  - 파이썬, C언어, SQL 문법
+  - 데이터베이스(DB) 기본 사용 방법
+  - 서버 구축 관련 지식(APM)
+  - 라즈베리파이 관련 지식
+  - 아두이노 관련 지식
+  - 적외선, 영상처리 등 각종 센서 지식
+
 
 ### 핵심 문서
 문서명 | 설명
@@ -80,11 +102,14 @@ etc                 기타 필요한 연결 프로그램 소스코드 및 자료
 [테스트 상황](https://github.com/) | 이 프로젝트에서 테스트 하기 위한 상황을 가정하고 설명한 파일
 
 
+
 ### 참고 문서
 문서명 | 설명
 ---- | ----
-[오픈소스 활용 가능성 검토](https://github.com/) | 이 프로젝트를 위한 여러 오픈소스 비교 및 활용 가능성 검토
-[MariaDB 기본 명령어](https://github.com/) | 마리아 DB의 기본 명령어 및 설치법
+[MariaDB 기본 명령어](https://github.com/yesman9692/Team-Insight/blob/master/etc/DB_command.md) | 마리아 DB의 기본 명령어 및 설치법
+[오픈소스 활용 가능성 검토](https://github.com/yesman9692/Team-Insight/blob/master/etc/OSS__analysis.md/) | 이 프로젝트를 위한 여러 오픈소스 비교 및 활용 가능성 검토
+
+
 
 
 ### 추진 계획
