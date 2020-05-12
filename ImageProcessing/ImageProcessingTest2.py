@@ -1,28 +1,34 @@
-import cv2 as cv
-import numpy as np
+def ImageProcessing():
 
-ori_img = cv.imread('sampleImage.jpg') #original image
-src_img = cv.imread('sampleImage2.jpg') #image to compare
+	import cv2 as cv
+	import numpy as np
 
-height = ori_img.shape[0] #ori_height == cmp_height
-width = ori_img.shape[1]
+	ori_img = cv.imread('sampleImage.jpg') #original image
+	src_img = cv.imread('sampleImage2.jpg') #image to compare
 
-output = np.zeros((height, width), np.uint8)
-count = 0
+	height = ori_img.shape[0] #ori_height == cmp_height
+	width = ori_img.shape[1]
 
-for y in range(0, height, 1):
-	for x in range(0, width, 1):
-		b1 = ori_img.item(y, x, 0)
-		g1 = ori_img.item(y, x, 1)
-		r1 = ori_img.item(y, x, 2)
+	output = np.zeros((height, width), np.uint8)
+	count = 0
+	confuse = 0.0
 
-		b2 = src_img.item(y, x, 0)
-		g2 = src_img.item(y, x, 1)
-		r2 = src_img.item(y, x ,2)
+	for y in range(0, height, 1):
+		for x in range(0, width, 1):
+			b1 = ori_img.item(y, x, 0)
+			g1 = ori_img.item(y, x, 1)
+			r1 = ori_img.item(y, x, 2)
 
-		if abs(r1-r2) and abs(g1-g2) and abs(b1-b2) > 30:
-			output[y][x] = 255
-			count = count + 1
+			b2 = src_img.item(y, x, 0)
+			g2 = src_img.item(y, x, 1)
+			r2 = src_img.item(y, x ,2)
 
-cv.imwrite('output2.jpg', output)
-print("혼잡도:", float(count)/float(height*width)*100)
+			if abs(r1-r2) and abs(g1-g2) and abs(b1-b2) > 30:
+				output[y][x] = 255
+				count = count + 1
+			cv.imwrite('output2.jpg', output)
+
+	confuse = float(count)/float(height*width)*100
+
+	return confuse
+
