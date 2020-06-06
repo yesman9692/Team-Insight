@@ -1,16 +1,22 @@
-import ImageProcessingTest2
+import ImageProcessingTest2 as Ipt
 import pymysql
+import datetime
 
-conn = pymysql.connect(host='192.168.200.169', user='root', passwd='0050', db='CLA')
+while True:
+    try:
+        confuse = Ipt.ImageProcessing()
 
-cur = conn.cursor()
-cur.execute("SELET * FROM Sensor")
+        conn = pymysql.connect(host='115.31.121.82', port=8009, user='phpmyadmin', passwd='0050', db='CLA')
 
-print(cur.description)
-print()
+        cur = conn.cursor()
+        sql = "INSERT INTO Sensor VALUES('BookCafe'," + str(confuse) + ",now())"
+        cur.execute(sql)
+        conn.commit()
 
-for row in cur:
-	print(row)
-
-cur.close()
-conn.close()
+        cur.close()
+        conn.close()
+    except Exception as e:
+        f = open('/home/pi/Team-Insight/ImageProcessing/log/sendingDataLog.txt','w')
+        write = str(datetime.datetime.now()) + '\n' + str(e) + '\n\n'
+        f.write(write)
+        f.close
