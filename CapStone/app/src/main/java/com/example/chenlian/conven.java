@@ -2,6 +2,7 @@ package com.example.chenlian;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,6 +14,8 @@ public class conven extends AppCompatActivity {
 
     Button btn_refresh;
     Button btn_back;
+
+    String datas[];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +38,11 @@ public class conven extends AppCompatActivity {
             }
         });
 
+        Intent r_data = getIntent();
+
+        String data = r_data.getExtras().getString("data");
+        datas = data.split("/");
+
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,7 +59,13 @@ public class conven extends AppCompatActivity {
                         btn_in.setText("기숙사 편의점\nNo Data!");
                         break;
                     case R.id.con_seven:
-                        btn_in.setText("세븐일레븐\nNo Data!");
+                        String sevText = "";
+                        sevText += "세븐일레븐\n";
+
+                        String con_seven_data[] = datas[1].split(" ");
+                        sevText += con_seven_data[1];
+
+                        btn_in.setText(sevText);
                         break;
                 }
             }

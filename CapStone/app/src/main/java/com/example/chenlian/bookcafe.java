@@ -2,6 +2,7 @@ package com.example.chenlian;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,6 +14,8 @@ public class bookcafe extends AppCompatActivity {
 
     Button btn_refresh;
     Button btn_back;
+
+    String datas[];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +38,11 @@ public class bookcafe extends AppCompatActivity {
             }
         });
 
+        Intent r_data = getIntent();
+
+        String data = r_data.getExtras().getString("data");
+        datas = data.split("/");
+
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,7 +53,13 @@ public class bookcafe extends AppCompatActivity {
                         btn_in.setText("공대 중앙\n북카페\nNo Data!");
                         break;
                     case R.id.bc_left:
-                        btn_in.setText("공대 좌측\n북카페\nNo Data!");
+                        String blText = "";
+                        blText+= "공대 좌측\n북카페\n";
+
+                        String bc_left_data[] = datas[0].split(" ");
+                        blText += bc_left_data[1];
+
+                        btn_in.setText(blText);
                         break;
                 }
             }

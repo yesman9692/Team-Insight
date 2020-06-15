@@ -85,12 +85,26 @@
             android:textSize="10pt"/>
     </LinearLayout>
 
+    <!-- 테스트용 텍스트뷰
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/testt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1">
 
         <Button
+            android:id="@+id/btn_testt"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
